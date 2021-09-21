@@ -1,0 +1,21 @@
+{
+    "name": "buchin/mailtrait",
+    "description": "Simple Email Trait for Sendmail",
+    "type": "library",
+    "require": {
+        "phpmailer/phpmailer": "^6.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Buchin\\Mailtrait\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mochammad Masbuchin",
+            "email": "buchin@dropsugar.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
